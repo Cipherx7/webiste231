@@ -34,9 +34,9 @@ function App() {
     }
   };
 
-  const checkLavelCondition = (updatedPortfolio: PortfolioType) => {
-    const lavelPosition = updatedPortfolio.positions.find(p => p.symbol === 'ACC');
-    if (lavelPosition && lavelPosition.shares >=100) {
+  const checkACCCondition = (updatedPortfolio: PortfolioType) => {
+    const ACCPosition = updatedPortfolio.positions.find(p => p.symbol === 'ACC');
+    if (ACCPosition && ACCPosition.shares >=100) {
       setShowFlag(true);
     }
   };
@@ -72,7 +72,7 @@ function App() {
         };
         
         setPortfolio(updatedPortfolio);
-        checkLavelCondition(updatedPortfolio);
+        checkACCCondition(updatedPortfolio);
       }
     } else {
       const position = portfolio.positions.find(p => p.symbol === selectedStock.symbol);
