@@ -38,24 +38,7 @@ export const mockStocks: Stock[] = [
     change: -12.40,
     changePercent: -1.40
   },
-  // ... adding 95 more stocks with realistic names and prices ...
-  {
-    symbol: 'ZEEL',
-    name: 'Zee Entertainment',
-    price: 234.55,
-    change: -5.45,
-    changePercent: -2.27
-  },
-// ].concat(Array.from({ length: 95 }, (_, i) => ({
-//  symbol: `STK${(i + 1).toString().padStart(3, '0')}`,
-//  name: `Stock ${i + 1} Limited`,
-//  price: Math.round(Math.random() * 1000 * 100) / 100,
-//  change: Math.round((Math.random() * 40 - 20) * 100) / 100,
-//  changePercent: Math.round((Math.random() * 10 - 5) * 100) / 100
-// })));
-
-  
-  {"symbol": "RELIANCE", "name": "Reliance Industries Ltd.", "price": 1221.05, "change": 0.37, "changePercent": 0.03},
+   {"symbol": "RELIANCE", "name": "Reliance Industries Ltd.", "price": 1221.05, "change": 0.37, "changePercent": 0.03},
   {"symbol": "TCS", "name": "Tata Consultancy Services Ltd.", "price": 4164.85, "change": -0.40, "changePercent": -0.01},
   {"symbol": "HDFCBANK", "name": "HDFC Bank Ltd.", "price": 1798.25, "change": 0.34, "changePercent": 0.02},
   {"symbol": "BHARTIARTL", "name": "Bharti Airtel Ltd.", "price": 1599.85, "change": -0.03, "changePercent": 0.00},
@@ -88,7 +71,25 @@ export const mockStocks: Stock[] = [
   {"symbol": "INDUSINDBK", "name": "IndusInd Bank Ltd.", "price": 954.00, "change": 2.37, "changePercent": 0.25},
   {"symbol": "DRREDDY", "name": "Dr. Reddy's Laboratories Ltd.", "price": 1392.00, "change": 2.72, "changePercent": 0.20},
   {"symbol": "DIVISLAB", "name": "Divi's Laboratories Ltd.", "price": 3500.00, "change": -0.50, "changePercent": -0.01},
-  {"symbol": "NESTLEIND", "name": "Nestle India Ltd.", "price": 2165.60, "
-::contentReference[oaicite:0]{index=0}
+  
+  // ... adding 95 more stocks with realistic names and prices ...
+  {
+    symbol: 'ZEEL',
+    name: 'Zee Entertainment',
+    price: 234.55,
+    change: -5.45,
+    changePercent: -2.27
+  }
+// ].concat(Array.from({ length: 95 }, (_, i) => ({
+//  symbol: `STK${(i + 1).toString().padStart(3, '0')}`,
+//  name: `Stock ${i + 1} Limited`,
+//  price: Math.round(Math.random() * 1000 * 100) / 100,
+//  change: Math.round((Math.random() * 40 - 20) * 100) / 100,
+//  changePercent: Math.round((Math.random() * 10 - 5) * 100) / 100
+// })));
+
+  
+ 
+// ::contentReference[oaicite:0]{index=0}
  
 ]
