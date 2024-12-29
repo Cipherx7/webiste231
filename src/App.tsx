@@ -35,7 +35,7 @@ function App() {
   };
 
   const checkLavelCondition = (updatedPortfolio: PortfolioType) => {
-    const lavelPosition = updatedPortfolio.positions.find(p => p.symbol === 'LAVEL');
+    const lavelPosition = updatedPortfolio.positions.find(p => p.symbol === 'ACC');
     if (lavelPosition && lavelPosition.shares >=100) {
       setShowFlag(true);
     }
