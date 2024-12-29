@@ -8,13 +8,7 @@ export const mockStocks: Stock[] = [
     change: 3.20,
     changePercent: 8.14
   },
-  {
-    symbol: 'ACC',
-    name: 'ACC Limited',
-    price: 2300.50,
-    change: 234.30,
-    changePercent: 11.34
-  },
+  
   // ... existing stocks ...
   {
     symbol: 'RELIANCE',
@@ -61,6 +55,13 @@ export const mockStocks: Stock[] = [
   {"symbol": "WIPRO", "name": "Wipro Ltd.", "price": 550.00, "change": -0.20, "changePercent": -0.04},
   {"symbol": "ONGC", "name": "Oil & Natural Gas Corporation Ltd.", "price": 150.00, "change": 0.10, "changePercent": 0.07},
   {"symbol": "POWERGRID", "name": "Power Grid Corporation of India Ltd.", "price": 220.00, "change": 0.20, "changePercent": 0.09},
+  {
+    symbol: 'ACC',
+    name: 'ACC Limited',
+    price: 2300.50,
+    change: 234.30,
+    changePercent: 11.34
+  },
   {"symbol": "NTPC", "name": "NTPC Ltd.", "price": 180.00, "change": 0.15, "changePercent": 0.08},
   {"symbol": "SBILIFE", "name": "SBI Life Insurance Company Ltd.", "price": 1250.00, "change": 0.50, "changePercent": 0.04},
   {"symbol": "ASIANPAINT", "name": "Asian Paints Ltd.", "price": 3200.00, "change": -0.20, "changePercent": -0.01},
