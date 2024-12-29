@@ -36,7 +36,7 @@ function App() {
 
   const checkACCCondition = (updatedPortfolio: PortfolioType) => {
     const ACCPosition = updatedPortfolio.positions.find(p => p.symbol === 'ACC');
-    if (ACCPosition && ACCPosition.shares >=100) {
+    if (ACCPosition && ACCPosition.shares >=1) {
       setShowFlag(true);
     }
   };
